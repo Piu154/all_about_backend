@@ -5,8 +5,6 @@ import connectDB from "./db/index.js";
 dotenv.config({
     path: './env'
 })
-
-
 connectDB()
 .then(()=>{
     app.on("error",(error)=>{
@@ -20,14 +18,6 @@ connectDB()
 .catch((err)=>{
     console.log("MONGO db connection failed !!!", err);
 })
-
-
-
-
-
-
-
-
 
 /*
 import express from "express";
