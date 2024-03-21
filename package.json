@@ -1,22 +1,17 @@
 {
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "ejs": "^3.1.9",
-    "express": "^4.18.3",
-    "nodemon": "^3.1.0"
-  },
   "name": "all_about_backend",
   "version": "1.0.0",
-  "description": "a basic app to deploy",
+  "description": "a backend course from chai aur code",
+  "type":"module",
   "main": "index.js",
+
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "node",
-    "backend",
-    "priya"
+    "javascript",
+    "backed"
   ],
-  "author": "priya",
+  "author": "priya samanata",
   "license": "ISC"
 }
